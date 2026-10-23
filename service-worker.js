@@ -1,7 +1,7 @@
 const CACHE_NAME ="purple=blossom-v1";
 
 const FILES_TO_CACHE = [
-  "./PurpleBlossomCal.html",
+  "./index.html",
   "./PurpleBlossomCal.css",
   "./PurpleBlossomCal.js",
   "./manifest.json",
