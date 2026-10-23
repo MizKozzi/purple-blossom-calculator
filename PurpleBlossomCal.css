@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -13,7 +13,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.calculator{
+.calculator {
   position: relative;
   width: 100%;
   max-width: 420px;
@@ -24,7 +24,7 @@ body{
   box-shadow: 0 0 18px #c15aff, 0 0 45px #8e37d866,
     inset 0 0 22px #e3a5ff55; 
 }
-.display{
+.display {
   height: 135px;
   margin-bottom: 26px;
   padding: 20px;
@@ -41,7 +41,7 @@ body{
   
 }
 
-#result{
+#result {
   color: #f8e8ff;
   font-size: clamp(36px, 9vw, 64px);
   font-weight: 300;
