@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US"
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, inital-scale=1.0">
+    <title>Purple Blossom Calculator</title>
+    <link rel="stylesheet" href="PurpleBlossomCal.css">
+     <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#48216c">
+    <script src="PurpleBlossomCal.js" defer></script>
+  </head>
+  <body>
+    <main class="calculator">
+      <div class="display">
+        <output id="result" aria-liv="polite">0</output>
+      </div>
+
+      <div class="buttons">
+        <button type="button" class="glass-btn utility"
+          data-action="clear">AC</button>
+        <button type="button" class="glass-btn utility"
+          data-action="sign">+/-</button>
+        <button type="button" class="glass-btn utility"
+          data-action="percent">%</button>
+        <button type="button" class="glass-btn operator"
+          data-action="divide">÷</button>
+
+        <button type="button" class="glass-btn" data-number="7">7</button>
+        <button type="button" class="glass-btn" data-number="8">8</button>
+        <button type="button" class="glass-btn" data-number="9">9</button>
+        <button type="button" class="glass-btn operator"
+          data-action="multiply">×</button>
+        
+        <button type="button" class="glass-btn" data-number="4">4</button>
+        <button type="button" class="glass-btn" data-number="5">5</button>
+        <button type="button" class="glass-btn" data-number="6">6</button>
+        <button type="button" class="glass-btn operator"
+          data-action="subtract">-</button>
+
+        <button type="button" class="glass-btn" data-number="1">1</button>
+        <button type="button" class="glass-btn" data-number="2">2</button>
+        <button type="button" class="glass-btn" data-number="3">3</button>
+        <button type="button" class="glass-btn operator"
+          data-action="add">+</button>
+
+        <button type="button" class="glass-btn zero" 
+          data-number="0">0</button>
+        <button type="button" class="glass-btn"
+          data-action="decimal">.</button>
+        <button type="button" class="glass-btn equals"
+          data-action="equals">=</button>
+      </div>
+
+      <div id="sparkle-layer" aria-hidden="true"></div>
+    </main>
+  
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js")
+        .then(() => {
+          console.log("Purple Blossom service worker registered!");
+        })
+        .catch((error) => {
+          console.error("Service worker registration failed:", error);
+        });
+    });
+  }
+</script>
+
+  </body>
+</html>
