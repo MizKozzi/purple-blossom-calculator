@@ -51,12 +51,11 @@ body{
 
 .buttins{
   display: grid;
-  grid-template-columns: repeat(4, minma(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
 
 .glass-btn{
-  width:100%;
   aspect-ratio: 1;
   min-width: 0;
   padding: 0;
