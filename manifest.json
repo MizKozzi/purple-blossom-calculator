@@ -2,7 +2,7 @@
   "name":"Purple Blossom Calculator",
   "short_name":"Purple Blossom",
   "description": "A sparkleing purple calculator",
-  "start_url":"./PurpleBlossomCal.html",
+  "start_url":"./index.html",
   "scope":"./",
   "display":"standalone",
   "background_color": "#10071e",
