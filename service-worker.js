@@ -1,4 +1,4 @@
-const CACHE_NAME ="purple=blossom-v1";
+const CACHE_NAME ="purple=blossom-v2";
 
 const FILES_TO_CACHE = [
   "./index.html",
