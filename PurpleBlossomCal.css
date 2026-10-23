@@ -56,6 +56,7 @@ body{
 }
 
 .glass-btn{
+  width: 100%;
   aspect-ratio: 1;
   min-width: 0;
   padding: 0;
