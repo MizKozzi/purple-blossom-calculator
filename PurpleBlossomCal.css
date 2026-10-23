@@ -84,7 +84,7 @@ body{
 .zero {
   grid-column: span 2;
   aspect-ratio: auto;
-  border-radius: 100px; !important; 
+  border-radius: 100px;
   text-align: left;
   padding-left: 28%;
 }
